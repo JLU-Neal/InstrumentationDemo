@@ -18,6 +18,8 @@ public class AgentMain {
                         String path = location.getPath();
                         if (path.contains("engine-core") || path.contains("engine-extends") || path.contains("engine-api") || path.contains("engine-module")) {
                             System.out.println("changleTest111|" + clazz.getPackage().getName());
+                        }else {
+                            System.out.println("Path does not exist!");
                         }
                     }
                 }
